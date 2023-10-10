@@ -78,13 +78,13 @@ $query_builder = TRUE;
 // 	'hostname' => '
 //             (DESCRIPTION =
 //                 (ADDRESS_LIST =
-//                   (ADDRESS = (PROTOCOL = TCP)(HOST = 172.16.200.144)(PORT = 1521))
+//                   (ADDRESS = (PROTOCOL = TCP)(HOST = your.1p.addres.here)(PORT = 1521))
 //                 )
 //                 (CONNECT_DATA =
 //                   (SERVICE_NAME = tajbank)
 //                 )
 //               )',
-// 	'username' => 'tajaccount',
+// 	'username' => 'testaccount',
 // 	'password' => 'oracle',
 // 	'database' => '',
 // 	'dbdriver' => 'oci8',
@@ -128,10 +128,10 @@ $db['default'] = array(
 
 // $db['lv_mssql'] = array(
 // 	'dsn'	=> '',
-// 	'hostname' => '172.19.2.23',
-// 	'username' => 'taj281',
-// 	'password' => 'Tobi@123456',
-// 	'database' => 'ICBH_TransAlert',
+// 	'hostname' => 'your.1p.addres.here',
+// 	'username' => 'testuser',
+// 	'password' => 'mydbpassword',
+// 	'database' => 'mydbname',
 // 	'dbdriver' => 'sqlsrv',
 // 	'dbprefix' => '',
 // 	'pconnect' => FALSE,
@@ -154,9 +154,9 @@ $db['default'] = array(
 // $db['local_mssql'] = array(
 // 	'dsn'	=> '',
 // 'hostname' => '172.19.2.23',
-// 	'username' => 'taj281',
-// 	'password' => 'Tobi@123456',
-// 	'database' => 'ICBH_TransAlert',
+//      'username' => ''your.1p.addres.here',
+// 	'password' => 'mydbpassword',
+// 	'database' => 'mydbname',
 // 	'dbdriver' => 'sqlsrv',
 // 	'dbprefix' => '',
 // 	'pconnect' => FALSE,
